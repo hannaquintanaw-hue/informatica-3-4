@@ -7,8 +7,4 @@ int main(void){
 
     printf("1 1/2 cups graham cracker crumbs\n");
 
-
-
-
-
-
+    

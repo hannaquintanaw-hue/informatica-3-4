@@ -7,4 +7,9 @@ int main(void)
     scanf("%d", &lenght);
     printf("What is the width of this rectangle: ");
     scanf("%d", &width);
-    
+    int area= lenght*width;
+    int perimeter=5*(lenght+width);
+    printf("Area=%d\n",area);
+    printf("Perimeter=%d\n",perimeter);
+
+}
