@@ -5,5 +5,5 @@ int test_value;
 int example1;
 // I fixed this variable by deliting the 1 and put it at last.
 float hanna;
-// I deleted the int because float and int cannot go together 
+// I deleted the int because float and int cannot go together, its like a boy named olivia
 printf("Variables created successfully.\n");

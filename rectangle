@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(void)
 {
-    int lenght
-    int width
+    int lenght;
+    int width;
     printf("What is the height of this rectangle: ");
     scanf("%d", &lenght);
     printf("What is the width of this rectangle: ");
@@ -13,3 +13,4 @@ int main(void)
     printf("Perimeter=%d\n",perimeter);
 
 }
+
