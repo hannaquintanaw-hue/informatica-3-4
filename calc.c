@@ -9,7 +9,7 @@ int main(void){
     printf("Simple Calculator \n");
     printf("Select an option:\n");
     printf("1. Addition\n");
-    printf("2. Substraction\n");
+    printf("2. Subtraction\n");
     printf("3. Multiplication\n");
     printf("4. Division\n");
     scanf("%d",&user_response);
@@ -18,7 +18,7 @@ int main(void){
 
     }
     else if(user_response==2){
-        substraction();
+        subtraction();
     }
     else if(user_response==3){
         multiplication();
@@ -27,10 +27,12 @@ int main(void){
     else if(user_response==4){
         division();
     }
-    else {printf("Invalid option \n");
+    else {printf("Invalid option \n");{
 
     }
 
+
+    }
 
 }
 //. definition
@@ -41,7 +43,42 @@ void addition(void){
     scanf("%f",&n1);
     printf("Enter number 2:");
     scanf("%f",&n2);
-    float S=n1-n2;
-    printf("%.2f-%.2f=%2.f\n",n1,n2,A);
+    float A=n1+n2;
+    printf("%.2f+%.2f=%2.f\n",n1,n2,A);
 
 }
+
+void subtraction (void){
+    float n1;
+    float n2;
+    printf("Enter number 1:");
+    scanf("%f",&n1);
+    printf("Enter number 2:");
+    scanf("%f",&n2);
+    float S=n1-n2;
+    printf("%.2f-%.2f=%2.f\n",n1,n2,S);
+
+}
+void multiplication (void){
+    float n1;
+    float n2;
+    printf("Enter number 1:");
+    scanf("%f",&n1);
+    printf("Enter number 2:");
+    scanf("%f",&n2);
+    float M=n1*n2;
+    printf("%.2f*%.2f=%2.f\n",n1,n2,M);
+}
+void division (void){
+    float n1;
+    float n2;
+    printf("Enter number 1:");
+    scanf("%f",&n1);
+    printf("Enter number 2:");
+    scanf("%f",&n2);
+    float D=n1/n2;
+    printf("%.2f/%.2f=%2.f\n",n1,n2,D);
+}
+
+
+
